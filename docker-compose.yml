@@ -1,0 +1,14 @@
+services:
+  latest:
+    image: ${IMAGE_NAME:?err}:${IMAGE_VERSION:-latest}
+    command: ${INIT_COMMAND}
+    build:
+      context: .
+      args:
+        IMAGE_NAME: ${IMAGE_NAME:?err}
+        IMAGE_VERSION: ${IMAGE_VERSION:?err}
+        BASE_IMAGE_NAME: ${BASE_IMAGE_NAME:?err}
+        BASE_IMAGE_VERSION: ${BASE_IMAGE_VERSION:?err}
+        HOMEDIR: ${HOMEDIR:?err}
+        MAINTAINER: ${MAINTAINER:?err}
+        THEEMAIL: ${THEEMAIL:?err}
