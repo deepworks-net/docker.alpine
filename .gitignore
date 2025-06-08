@@ -47,6 +47,7 @@ Temporary Items
 .apdisk
 
 .env
+
 config/
 models/
 validation/
