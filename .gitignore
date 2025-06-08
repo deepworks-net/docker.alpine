@@ -51,3 +51,4 @@ config/
 models/
 validation/
 CLAUDE.md
+.claude/
