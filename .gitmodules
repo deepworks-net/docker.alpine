@@ -1,3 +1,6 @@
 [submodule "scripts/utils"]
 	path = scripts/utils
 	url = https://github.com/deepworks-net/utilities.docker.git
+[submodule "claude.code"]
+    path = claude
+    url = https://github.com/deepworks-net/docker.claude-code.git
