@@ -6,3 +6,4 @@
 **/*.class
 # ignore all markdown files (md) in all folders, including build root
 **/*.md
+claude/
